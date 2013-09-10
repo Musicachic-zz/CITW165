@@ -1,0 +1,64 @@
+body {
+    background-image:url(../images/homepagewallpaper.png);
+    background-size: cover;
+}
+
+h1 {
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    text-align: center;
+    color: purple ;
+}
+
+h2 {
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;;
+    text-align: center;
+    font-style: oblique;
+}
+
+#desc {
+    font-family: Papyrus, fantasy;
+    font-size: medium;
+    text-align: center;
+}
+
+#copyright{
+    font-family: "Brush Script MT", cursive;
+    font-size: small;
+    text-align: center;
+    margin-left: 0%;
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    background-color: white;
+    text-align: left;
+    border-style: solid;
+    margin: 0;
+    padding: 10px;
+    /*display:inline-block;
+    */
+    text-decoration: none;
+}
+
+img {
+    float: right;
+    display: inline;
+    padding: 20px;
+    background-color: deeppink;
+
+}
+
+.menu a:hover {
+    color:deeppink;
+    background-color: gray;
+}
+
+#listtop {
+    font-variant: small-caps;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}

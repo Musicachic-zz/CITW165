@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        do {
+            var miles = prompt("Enter the miles driven");
+            miles = parseFloat(miles);
+
+            if (isNaN(miles) || miles <= 0) {
+                alert("Miles driven must be a number greater than zero.");
+
+
+            }
+        }
+        while (isNaN(miles) || miles <= 0);
+        do {
+            var gallons = prompt("Enter gallons of gas used:");
+            gallons = parseFloat(gallons);
+
+            if (isNaN(gallons) || gallons <= 0){
+                alert("Gallons must be a number greater than zero.")
+            }
+        }
+        while (isNaN(gallons) || gallons <= 0);
+        var mpg = miles/gallons;
+        mpg = parseInt(mpg);
+        alert("Miles per Gallon = " + mpg);
+    </script>
+</head>
+<body>
+<h1>This page is displayed after the javascript is executed.</h1>
+</body>
+</html>
